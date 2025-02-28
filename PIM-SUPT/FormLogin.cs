@@ -52,5 +52,10 @@ namespace PIM_SUPT
                 MessageBox.Show("Login inválido", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void FormLogin_Load(object sender, EventArgs e)
+        {
+            this.AcceptButton = BtnAcessar;
+        }
     }
 }

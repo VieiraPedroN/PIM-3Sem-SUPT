@@ -64,6 +64,7 @@
             // 
             this.textSenha.Location = new System.Drawing.Point(348, 219);
             this.textSenha.Name = "textSenha";
+            this.textSenha.PasswordChar = '*';
             this.textSenha.Size = new System.Drawing.Size(141, 22);
             this.textSenha.TabIndex = 3;
             // 
@@ -90,6 +91,7 @@
             this.Controls.Add(this.label1);
             this.Name = "FormLogin";
             this.Text = "FormLogin";
+            this.Load += new System.EventHandler(this.FormLogin_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
