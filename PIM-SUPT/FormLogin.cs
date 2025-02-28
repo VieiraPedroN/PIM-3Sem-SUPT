@@ -20,17 +20,17 @@ namespace PIM_SUPT
         private void BtnAcessar_Click(object sender, EventArgs e)
         {
             int ID = 0;
-            string emailAdm = "Func";
-            string senhaAdm = "12345";
-
-            string emailFunc = "User";
+            string emailFunc = "Func";
             string senhaFunc = "12345";
 
-            if (textEmail.Text.Equals(emailAdm) && textSenha.Text.Equals(senhaAdm))
+            string emailUser = "User";
+            string senhaUser = "12345";
+
+            if (textEmail.Text.Equals(emailFunc) && textSenha.Text.Equals(senhaFunc))
             {
                 ID = 1; // Identificador de Funcionario
             }
-            else if (textEmail.Text.Equals(emailFunc) && textSenha.Text.Equals(senhaFunc))
+            else if (textEmail.Text.Equals(emailUser) && textSenha.Text.Equals(senhaUser))
             {
                 ID = 2; // Identificador de Usuario
             }

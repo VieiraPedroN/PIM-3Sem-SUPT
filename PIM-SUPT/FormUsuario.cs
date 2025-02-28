@@ -22,5 +22,12 @@ namespace PIM_SUPT
         {
             comboBox1.SelectedIndex = 0;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FormChamadoUser formChamadoUser = new FormChamadoUser();
+            formChamadoUser.Show();
+            this.Hide();
+        }
     }
 }
