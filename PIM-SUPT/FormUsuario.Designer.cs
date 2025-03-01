@@ -40,7 +40,6 @@
             this.label5 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.vScrollBar1 = new System.Windows.Forms.VScrollBar();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -163,22 +162,14 @@
             this.label6.TabIndex = 11;
             this.label6.Text = "Descreva o problema";
             // 
-            // vScrollBar1
-            // 
-            this.vScrollBar1.Dock = System.Windows.Forms.DockStyle.Right;
-            this.vScrollBar1.Location = new System.Drawing.Point(779, 0);
-            this.vScrollBar1.Name = "vScrollBar1";
-            this.vScrollBar1.Size = new System.Drawing.Size(21, 450);
-            this.vScrollBar1.TabIndex = 13;
-            // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.CornflowerBlue;
             this.button1.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(438, 396);
+            this.button1.Location = new System.Drawing.Point(457, 396);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(85, 30);
             this.button1.TabIndex = 14;
             this.button1.Text = "Enviar";
             this.button1.UseVisualStyleBackColor = false;
@@ -189,12 +180,13 @@
             this.button2.BackColor = System.Drawing.Color.Transparent;
             this.button2.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(357, 396);
+            this.button2.Location = new System.Drawing.Point(358, 396);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.Size = new System.Drawing.Size(85, 30);
             this.button2.TabIndex = 15;
             this.button2.Text = "Cancelar";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // FormUsuario
             // 
@@ -204,7 +196,6 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.vScrollBar1);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.label5);
@@ -238,7 +229,6 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.VScrollBar vScrollBar1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
     }

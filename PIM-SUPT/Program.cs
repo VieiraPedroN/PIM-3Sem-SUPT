@@ -16,7 +16,7 @@ namespace PIM_SUPT
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormUsuario());
+            Application.Run(new FormLogin());
         }
     }
 }

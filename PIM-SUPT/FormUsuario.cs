@@ -29,5 +29,12 @@ namespace PIM_SUPT
             formChamadoUser.Show();
             this.Hide();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            FormTriagemUsuario formTriagemUsuario = new FormTriagemUsuario();
+            formTriagemUsuario.Show();
+            this.Hide();
+        }
     }
 }

@@ -43,8 +43,8 @@ namespace PIM_SUPT
             }
             else if (ID == 2)
             {
-                FormUsuario formUsuario = new FormUsuario();
-                formUsuario.Show();
+                FormTriagemUsuario formTriagemUsuario = new FormTriagemUsuario();
+                formTriagemUsuario.Show();
                 this.Hide();
             }
             else
