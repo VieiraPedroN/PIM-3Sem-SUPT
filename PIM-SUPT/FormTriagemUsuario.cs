@@ -16,12 +16,19 @@ namespace PIM_SUPT
         {
             InitializeComponent();
         }
-
-        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
             FormUsuario formUsuario = new FormUsuario();
             formUsuario.Show();
             this.Hide();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            FormAcompanharChamado formAcompanhar =  new FormAcompanharChamado();
+            formAcompanhar.Show();
+            this.Hide();
+
         }
     }
 }
